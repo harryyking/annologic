@@ -58,7 +58,7 @@ const Header = () => {
             </span>
           </h1>
 
-          <p className="text-xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed font-light">
+          <p className="lg:text-xl text-lg text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed font-light">
             Join millions of Africans building wealth through cryptocurrency. Trade, invest, and earn with the
             continent's most trusted digital asset platform, designed for African markets.
           </p>
