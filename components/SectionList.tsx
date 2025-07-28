@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card'; // Assuming these are available from shadcn/ui
-import { CheckCircle, Target } from 'lucide-react'; // Assuming these icons are available
 
 // Define the data for the sections
 const features = [

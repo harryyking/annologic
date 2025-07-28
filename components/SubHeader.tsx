@@ -1,4 +1,4 @@
-import { CheckCircle, Target, Diamond } from 'lucide-react'
+import { Target, Diamond } from 'lucide-react'
 import React from 'react'
 
 const SubHeader = () => {
