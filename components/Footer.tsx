@@ -13,8 +13,8 @@ const Footer = () => {
 
         <div className="max-w-6xl mx-auto z-10">
           <div className="grid md:grid-cols-4 gap-8 mb-24">
-            <div>
-              <Image src={Logo} width={60} height={60} alt='logo'/>
+            <div className='space-y-2'>
+              <Image src={Logo} width={60} height={60} alt='logo' className='rounded-md'/>
               <h3 className="text-white font-bold text-xl mb-4">HELIOGRAF</h3>
               <p className="text-gray-300 text-sm mb-4">
                 Redefining crypto finance for Africa with secure, fast, and accessible digital financial services.
