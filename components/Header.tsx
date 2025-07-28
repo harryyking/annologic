@@ -87,16 +87,38 @@ const Header = () => {
             </p>
             <div className="flex flex-wrap justify-center items-center gap-12 opacity-60">
               <div className="h-12 w-24 bg-gradient-to-r from-gray-600 to-gray-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">BANK</span>
+              {/* Visa logo */}
+              <svg className="h-8 w-auto opacity-70 text-white" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M22.4 12.8c0 .8-.6 1.4-1.4 1.4H17v-2.8h4c.8 0 1.4.6 1.4 1.4zM15.6 12.8c0 .8-.6 1.4-1.4 1.4h-2.8v-2.8h4.2c.8 0 1.4.6 1.4 1.4zM10 12.8c0 .8-.6 1.4-1.4 1.4H6.2v-2.8h3.8c.8 0 1.4.6 1.4 1.4zM4.8 12.8c0 .8-.6 1.4-1.4 1.4H2v-2.8h2.8c.8 0 1.4.6 1.4 1.4z"/>
+              <path d="M22.4 12.8c0 .8-.6 1.4-1.4 1.4H17v-2.8h4c.8 0 1.4.6 1.4 1.4zM15.6 12.8c0 .8-.6 1.4-1.4 1.4h-2.8v-2.8h4.2c.8 0 1.4.6 1.4 1.4zM10 12.8c0 .8-.6 1.4-1.4 1.4H6.2v-2.8h3.8c.8 0 1.4.6 1.4 1.4zM4.8 12.8c0 .8-.6 1.4-1.4 1.4H2v-2.8h2.8c.8 0 1.4.6 1.4 1.4z"/>
+              <path d="M11.999 0C5.372 0 0 5.372 0 12s5.372 12 11.999 12C18.627 24 24 18.628 24 12S18.627 0 11.999 0zM12 22.4c-5.73 0-10.4-4.67-10.4-10.4S6.27 1.6 12 1.6s10.4 4.67 10.4 10.4-4.67 10.4-10.4 10.4z"/>
+            </svg>
+
               </div>
               <div className="h-12 w-24 bg-gradient-to-r from-gray-600 to-gray-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">FINTECH</span>
+              
+              <svg className="h-8 w-auto opacity-70 text-white" viewBox="0 0 24 24" fill="currentColor">
+                {/* Mastercard Logo */}
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+              <path d="M12 12c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"/>
+              <circle cx="12" cy="12" r="8"/>
+              <path d="M12 12c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"/>
+            </svg>
+
               </div>
               <div className="h-12 w-24 bg-gradient-to-r from-gray-600 to-gray-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">EXCHANGE</span>
+                {/* Google */}
+                  <svg className="h-8 w-auto opacity-70 text-white" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.24 10.285V11.69h4.295c-.17 1.02-.75 2.06-1.78 2.72-.94.61-2.22.99-3.41.99-3.23 0-5.85-2.62-5.85-5.85s2.62-5.85 5.85-5.85c1.74 0 3.01.72 3.93 1.62l1.06-1.06c-1.35-1.26-3.13-2.06-4.99-2.06-4.14 0-7.5 3.36-7.5 7.5s3.36 7.5 7.5 7.5c4.02 0 6.64-2.86 7.05-6.83H12.24z"/>
+            </svg>
+
               </div>
               <div className="h-12 w-24 bg-gradient-to-r from-gray-600 to-gray-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">WALLET</span>
+                {/* Binance Logo (simplified) */}
+            <svg className="h-8 w-auto opacity-70 text-white" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0L0 12l12 12 12-12L12 0zm0 19.8L4.2 12 12 4.2 19.8 12 12 19.8z"/>
+              <path d="M12 4.2L4.2 12 12 19.8 19.8 12 12 4.2zM12 7.8L7.8 12 12 16.2 16.2 12 12 7.8z"/>
+            </svg>
               </div>
             </div>
           </div>
