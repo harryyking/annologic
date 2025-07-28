@@ -15,14 +15,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={brandFont.className}>
       <body
-        className={brandFont.className}
+        className="bg-black"
       >
-        <div className="bg-black">
+     
         {children}
-
-        </div>
       </body>
     </html>
   );
