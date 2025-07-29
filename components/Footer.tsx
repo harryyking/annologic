@@ -5,11 +5,14 @@ import Logo from '@/public/HEIROGLF.png'
 const Footer = () => {
   return (
     <footer className="relative overflow-hidden px-6 py-16"> {/* Added background color for consistency */}
-        <div
-          className="absolute bottom-0 left-1/2 -translate-x-1/2 w-3/5 h-3/4 bg-gradient-to-t from-blue-600 via-purple-600 to-emerald-400 opacity-60 blur-3xl rounded-sm"
-          // Changed gradient direction to 'to-t' (to top) to make it come from the bottom
-          // Adjusted width and centered horizontally for better visual effect
-        ></div>
+         <div className="absolute inset-0">
+        {/* Primary gradient */}
+        <div className="absolute top-1/4 left-0 w-1/2 h-3/4 bg-gradient-to-br from-emerald-500/30 via-blue-600/20 to-purple-600/30 blur-3xl rounded-full"></div>
+        {/* Secondary gradient */}
+        <div className="absolute bottom-1/4 right-0 w-1/3 h-1/2 bg-gradient-to-tl from-orange-500/20 via-pink-500/15 to-emerald-400/25 blur-2xl rounded-full"></div>
+        {/* Accent gradient */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/4 h-1/3 bg-gradient-to-r from-cyan-400/20 to-blue-500/20 blur-xl rounded-full"></div>
+      </div>
 
         <div className="max-w-6xl mx-auto z-10">
           <div className="grid md:grid-cols-4 gap-8 mb-24">
