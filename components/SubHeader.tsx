@@ -5,9 +5,14 @@ const SubHeader = () => {
   return (
     <section className="relative overflow-hidden min-h-screen flex flex-col justify-center">
       {/* Blurred gradient background */}
-      <div
-        className="absolute top-1/2 right-0 -translate-y-1/2 w-3/5 h-2/3 bg-gradient-to-t from-blue-600 via-purple-600 to-emerald-400 opacity-60 blur-3xl rounded-sm"
-      ></div>
+      <div className="absolute inset-0">
+        {/* Primary gradient */}
+        <div className="absolute top-1/4 left-0 w-1/2 h-3/4 bg-gradient-to-br from-emerald-500/30 via-blue-600/20 to-purple-600/30 blur-3xl rounded-full"></div>
+        {/* Secondary gradient */}
+        <div className="absolute bottom-1/4 right-0 w-1/3 h-1/2 bg-gradient-to-tl from-orange-500/20 via-pink-500/15 to-emerald-400/25 blur-2xl rounded-full"></div>
+        {/* Accent gradient */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/4 h-1/3 bg-gradient-to-r from-cyan-400/20 to-blue-500/20 blur-xl rounded-full"></div>
+      </div>
 
       <div className="max-w-6xl mx-auto z-10">
         <div className="text-center mb-16">
