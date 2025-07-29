@@ -79,46 +79,6 @@ const Header = () => {
             </Button>
           </div>
 
-
-          {/* Trusted by section */}
-          <div className="text-center">
-            <p className="text-sm text-gray-500 mb-8 uppercase tracking-wider font-medium">
-              Trusted by Leading Organizations
-            </p>
-            <div className="flex flex-wrap justify-center items-center gap-12 opacity-60">
-              <div className="h-12 w-24 bg-gradient-to-r from-gray-600 to-gray-700 rounded-lg flex items-center justify-center">
-              {/* Visa logo */}
-              <svg className="h-8 w-auto opacity-70" viewBox="0 0 100 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="100" height="20" fill="transparent"/>
-              <text x="0" y="15" fontFamily="Arial, sans-serif" fontSize="14" fontWeight="bold" fill="white">Coinbase</text>
-            </svg>
-
-              </div>
-              <div className="h-12 w-24 bg-gradient-to-r from-gray-600 to-gray-700 rounded-lg flex items-center justify-center">
-              
-              <svg className="h-8 w-auto opacity-70" viewBox="0 0 100 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="100" height="20" fill="transparent"/>
-              <text x="0" y="15" fontFamily="Verdana, sans-serif" fontSize="14" fontWeight="bold" fill="white">Binance</text>
-            </svg>
-
-              </div>
-              <div className="h-12 w-24 bg-gradient-to-r from-gray-600 to-gray-700 rounded-lg flex items-center justify-center">
-                {/* Stripe */}
-                <svg className="h-8 w-auto opacity-70" viewBox="0 0 100 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="100" height="20" fill="transparent"/>
-              <text x="0" y="15" fontFamily="Helvetica Neue, sans-serif" fontSize="14" fontWeight="bold" fill="white">Stripe</text>
-            </svg>
-
-              </div>
-              <div className="h-12 w-24 bg-gradient-to-r from-gray-600 to-gray-700 rounded-lg flex items-center justify-center">
-                {/* Binance Logo (simplified) */}
-                <svg className="h-8 w-auto opacity-70" viewBox="0 0 100 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="100" height="20" fill="transparent"/>
-              <text x="0" y="15" fontFamily="Georgia, serif" fontSize="14" fontWeight="bold" fill="white">VISA</text>
-            </svg>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     </div>
