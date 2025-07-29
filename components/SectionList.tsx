@@ -64,7 +64,7 @@ const SectionList = () => {
           {features.map((feature, index) => (
             <Card
               key={feature.id}
-              className='bg-primary rounded-lg border-0'
+              className='bg-card rounded-lg border-0'
             >
               <CardContent className="p-8">
                 <div className="flex items-start space-x-6">
